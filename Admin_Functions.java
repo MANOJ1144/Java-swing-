@@ -83,7 +83,19 @@ public class Admin_Functions {
         btnNewButton_1.setFont(new Font("Bahnschrift", Font.BOLD, 16));
         btnNewButton_1.setBounds(397, 261, 85, 29);
         frame.getContentPane().add(btnNewButton_1);
+        
+        textField = new JTextField();
+        textField.setFont(new Font("Bahnschrift", Font.BOLD, 13));
+        textField.setBounds(186, 107, 137, 21);
+        frame.getContentPane().add(textField);
+        textField.setColumns(10);
 
+        passwordField = new JPasswordField();
+        passwordField.setFont(new Font("Bahnschrift", Font.BOLD, 13));
+        passwordField.setBounds(186, 156, 137, 21);
+        frame.getContentPane().add(passwordField);
+        frame.setBounds(100, 100, 506, 337);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     }
 
