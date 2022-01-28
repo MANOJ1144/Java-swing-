@@ -97,4 +97,5 @@ public class Admin_Functions {
         frame.setBounds(100, 100, 506, 337);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+    
 }
