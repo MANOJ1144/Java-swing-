@@ -84,6 +84,7 @@ public class displaySchedual {
             ex.printStackTrace();
         }
     }
+    
 
     public DefaultTableModel getModel() {
         return (DefaultTableModel) getTable().getModel();
