@@ -202,10 +202,7 @@ public class View_Students {
                 frame.dispose();
             }
         });
-        btnNewButton.setBounds(662, 353, 87, 32);
-        frame.getContentPane().add(btnNewButton);
-        frame.setBounds(100, 100, 773, 432);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
     }
 
 }
