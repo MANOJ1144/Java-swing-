@@ -84,7 +84,7 @@ public class displaySchedual {
             ex.printStackTrace();
         }
     }
-    
+
 
     public DefaultTableModel getModel() {
         return (DefaultTableModel) getTable().getModel();
@@ -92,7 +92,9 @@ public class displaySchedual {
 
     public JTable getTable() {
         return table;
+        
     }
+
 
     private void initialize() {
         frame = new JFrame();
