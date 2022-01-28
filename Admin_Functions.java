@@ -45,17 +45,17 @@ public class Admin_Functions {
         frame.getContentPane().setLayout(null);
 
         JLabel Admin = new JLabel("Admin LogIn");
-        Admin.setFont(new Font("Bahnschrift", Font.BOLD, 20));
+        Admin.setFont(new Font("Times New Roman", Font.BOLD, 20));
         Admin.setBounds(39, 43, 170, 29);
         frame.getContentPane().add(Admin);
 
         JLabel Name = new JLabel("Admin_Name");
-        Name.setFont(new Font("Bahnschrift", Font.BOLD, 16));
+        Name.setFont(new Font("Times New Roman", Font.BOLD, 16));
         Name.setBounds(36, 103, 112, 29);
         frame.getContentPane().add(Name);
 
         JLabel password = new JLabel("Password");
-        password.setFont(new Font("Bahnschrift", Font.BOLD, 16));
+        password.setFont(new Font("Times New Roman", Font.BOLD, 16));
         password.setBounds(36, 152, 85, 29);
         frame.getContentPane().add(password);
 
@@ -80,18 +80,18 @@ public class Admin_Functions {
 
         });
 
-        btnNewButton_1.setFont(new Font("Bahnschrift", Font.BOLD, 16));
+        btnNewButton_1.setFont(new Font("Times New Roman", Font.BOLD, 16));
         btnNewButton_1.setBounds(397, 261, 85, 29);
         frame.getContentPane().add(btnNewButton_1);
         
         textField = new JTextField();
-        textField.setFont(new Font("Bahnschrift", Font.BOLD, 13));
+        textField.setFont(new Font("Times New Roman", Font.BOLD, 13));
         textField.setBounds(186, 107, 137, 21);
         frame.getContentPane().add(textField);
         textField.setColumns(10);
 
         passwordField = new JPasswordField();
-        passwordField.setFont(new Font("Bahnschrift", Font.BOLD, 13));
+        passwordField.setFont(new Font("Times New Roman", Font.BOLD, 13));
         passwordField.setBounds(186, 156, 137, 21);
         frame.getContentPane().add(passwordField);
         frame.setBounds(100, 100, 506, 337);
